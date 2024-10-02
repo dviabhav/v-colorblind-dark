@@ -1,0 +1,21 @@
+{
+  "name": "v-colorblind-dark",
+  "displayName": "V-colorblind-theme",
+  "description": "Vaibhavs dark theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "V's dark theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/V's dark theme-color-theme.json"
+      }
+    ]
+  }
+}
