@@ -1,8 +1,9 @@
+//https://www.youtube.com/watch?v=pGzssFNtWXw
 {
 	"name": "V's dark theme",
 	"colors": {
-		"editor.background": "#263238",
-		"editor.foreground": "#eeffff",
+		"editor.background": "#000000bf",
+		"editor.foreground": "#ffffff",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb"
 	},
@@ -14,8 +15,8 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground": "#b9b9b975",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -90,6 +91,16 @@
 			}
 		},
 		{
+			"name": "Function builtin Python, Support",
+			"scope": [
+				"support.function.builtin.python",
+				"meta.function-call.generic"
+			],
+			"settings": {
+				"foreground": "#9bedff"
+			}
+		},
+		{
 			"name": "Function, Special Method",
 			"scope": [
 				"entity.name.function",
@@ -99,7 +110,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#2effaf"
 			}
 		},
 		{
@@ -149,7 +160,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#fbfc9fc2", "fontStyle": "italic"
 			}
 		},
 		{
